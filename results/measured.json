@@ -1,0 +1,833 @@
+{
+  "headline": {
+    "stateless": {
+      "mean_normalized_reward": -0.0242,
+      "normalized_reward_range": [
+        -0.0723,
+        0.0522
+      ],
+      "mean_stateless_gain": 0.0,
+      "stateless_gain_range": [
+        0.0,
+        0.0
+      ],
+      "mean_cost_usd": 3.3432,
+      "cost_reduction_vs_global_icl": 0.7202,
+      "cost_reduction_range": [
+        0.7202,
+        0.7202
+      ],
+      "mean_clusters": 0.0,
+      "per_family_normalized": {
+        "sql": -0.0074,
+        "poker": 0.0827,
+        "sales": -0.0718,
+        "code": -0.0467,
+        "cohort": -0.0851,
+        "spectrum": -0.0449,
+        "banking": -0.0096
+      },
+      "cluster_systems": {}
+    },
+    "global_icl": {
+      "mean_normalized_reward": -0.0918,
+      "normalized_reward_range": [
+        -0.1532,
+        0.0032
+      ],
+      "mean_stateless_gain": -0.0654,
+      "stateless_gain_range": [
+        -0.0805,
+        -0.0519
+      ],
+      "mean_cost_usd": 11.947,
+      "cost_reduction_vs_global_icl": 0.0,
+      "cost_reduction_range": [
+        0.0,
+        0.0
+      ],
+      "mean_clusters": 0.0,
+      "per_family_normalized": {
+        "sql": -0.0837,
+        "poker": 0.0099,
+        "sales": -0.1536,
+        "code": -0.0397,
+        "cohort": -0.2016,
+        "spectrum": -0.1033,
+        "banking": -0.0808
+      },
+      "cluster_systems": {}
+    },
+    "global_rb": {
+      "mean_normalized_reward": 0.472,
+      "normalized_reward_range": [
+        0.3954,
+        0.5127
+      ],
+      "mean_stateless_gain": 0.487,
+      "stateless_gain_range": [
+        0.437,
+        0.5424
+      ],
+      "mean_cost_usd": 3.4402,
+      "cost_reduction_vs_global_icl": 0.712,
+      "cost_reduction_range": [
+        0.712,
+        0.7122
+      ],
+      "mean_clusters": 0.0,
+      "per_family_normalized": {
+        "sql": 0.42,
+        "poker": 0.5923,
+        "sales": 0.4269,
+        "code": 0.379,
+        "cohort": 0.3955,
+        "spectrum": 0.4228,
+        "banking": 0.5731
+      },
+      "cluster_systems": {}
+    },
+    "routed_icl": {
+      "mean_normalized_reward": 0.348,
+      "normalized_reward_range": [
+        0.2483,
+        0.4797
+      ],
+      "mean_stateless_gain": 0.3619,
+      "stateless_gain_range": [
+        0.2983,
+        0.5085
+      ],
+      "mean_cost_usd": 6.3164,
+      "cost_reduction_vs_global_icl": 0.4713,
+      "cost_reduction_range": [
+        0.4508,
+        0.4854
+      ],
+      "mean_clusters": 7.0,
+      "per_family_normalized": {
+        "sql": 0.5497,
+        "poker": 0.3958,
+        "sales": 0.2408,
+        "code": 0.5325,
+        "cohort": 0.0314,
+        "spectrum": 0.3935,
+        "banking": 0.319
+      },
+      "cluster_systems": {
+        "icl": 7.0
+      },
+      "router_agreement": {
+        "system": 0.2513,
+        "partition": 0.8819,
+        "both": 0.2382
+      }
+    },
+    "routed_rb": {
+      "mean_normalized_reward": 0.4709,
+      "normalized_reward_range": [
+        0.4033,
+        0.53
+      ],
+      "mean_stateless_gain": 0.4865,
+      "stateless_gain_range": [
+        0.4454,
+        0.5381
+      ],
+      "mean_cost_usd": 4.4528,
+      "cost_reduction_vs_global_icl": 0.6273,
+      "cost_reduction_range": [
+        0.6271,
+        0.6274
+      ],
+      "mean_clusters": 7.2,
+      "per_family_normalized": {
+        "sql": 0.4429,
+        "poker": 0.5705,
+        "sales": 0.4046,
+        "code": 0.3999,
+        "cohort": 0.3883,
+        "spectrum": 0.4154,
+        "banking": 0.5765
+      },
+      "cluster_systems": {
+        "reasoning_bank": 7.2
+      },
+      "router_agreement": {
+        "system": 0.3693,
+        "partition": 0.8633,
+        "both": 0.2955
+      }
+    },
+    "routed_cl": {
+      "mean_normalized_reward": 0.6036,
+      "normalized_reward_range": [
+        0.5281,
+        0.6509
+      ],
+      "mean_stateless_gain": 0.6126,
+      "stateless_gain_range": [
+        0.5607,
+        0.6695
+      ],
+      "mean_cost_usd": 4.8391,
+      "cost_reduction_vs_global_icl": 0.595,
+      "cost_reduction_range": [
+        0.5912,
+        0.5963
+      ],
+      "mean_clusters": 7.0,
+      "per_family_normalized": {
+        "sql": 0.5421,
+        "poker": 0.6069,
+        "sales": 0.6576,
+        "code": 0.5674,
+        "cohort": 0.6941,
+        "spectrum": 0.6127,
+        "banking": 0.5731
+      },
+      "cluster_systems": {
+        "discrete_event": 1.0,
+        "hierarchical_regression": 1.0,
+        "icl": 2.0,
+        "persistent_entity": 1.0,
+        "reasoning_bank": 2.0
+      },
+      "router_agreement": {
+        "system": 0.995,
+        "partition": 0.9889,
+        "both": 0.9879
+      }
+    },
+    "ground_truth": {
+      "mean_normalized_reward": 0.6142,
+      "normalized_reward_range": [
+        0.5644,
+        0.6551
+      ],
+      "mean_stateless_gain": 0.6228,
+      "stateless_gain_range": [
+        0.5924,
+        0.6737
+      ],
+      "mean_cost_usd": 3.785,
+      "cost_reduction_vs_global_icl": 0.6832,
+      "cost_reduction_range": [
+        0.683,
+        0.6833
+      ],
+      "mean_clusters": 7.0,
+      "per_family_normalized": {
+        "sql": 0.5802,
+        "poker": 0.5996,
+        "sales": 0.6576,
+        "code": 0.5813,
+        "cohort": 0.6941,
+        "spectrum": 0.6127,
+        "banking": 0.5934
+      },
+      "cluster_systems": {
+        "discrete_event": 1.0,
+        "hierarchical_regression": 1.0,
+        "icl": 2.0,
+        "persistent_entity": 1.0,
+        "reasoning_bank": 2.0
+      }
+    }
+  },
+  "n_rollouts": 5,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "stream": {
+    "n_instances": 398,
+    "analytic": 301,
+    "banking": 97,
+    "order": "interleaved"
+  },
+  "blocked": {
+    "stateless": {
+      "mean_normalized_reward": -0.0304,
+      "normalized_reward_range": [
+        -0.0929,
+        0.0436
+      ],
+      "mean_stateless_gain": 0.0,
+      "stateless_gain_range": [
+        0.0,
+        0.0
+      ],
+      "mean_cost_usd": 3.3432,
+      "cost_reduction_vs_global_icl": 0.7202,
+      "cost_reduction_range": [
+        0.7202,
+        0.7202
+      ],
+      "mean_clusters": 0.0,
+      "per_family_normalized": {
+        "sql": -0.1524,
+        "poker": -0.0338,
+        "sales": -0.0122,
+        "code": -0.0676,
+        "cohort": -0.0196,
+        "spectrum": 0.0355,
+        "banking": 0.0039
+      },
+      "cluster_systems": {}
+    },
+    "global_icl": {
+      "mean_normalized_reward": 0.0226,
+      "normalized_reward_range": [
+        -0.0555,
+        0.1002
+      ],
+      "mean_stateless_gain": 0.0457,
+      "stateless_gain_range": [
+        0.0288,
+        0.0558
+      ],
+      "mean_cost_usd": 11.947,
+      "cost_reduction_vs_global_icl": 0.0,
+      "cost_reduction_range": [
+        0.0,
+        0.0
+      ],
+      "mean_clusters": 0.0,
+      "per_family_normalized": {
+        "sql": 0.6337,
+        "poker": 0.0318,
+        "sales": -0.0197,
+        "code": -0.1304,
+        "cohort": -0.1434,
+        "spectrum": -0.1253,
+        "banking": -0.0334
+      },
+      "cluster_systems": {}
+    },
+    "global_rb": {
+      "mean_normalized_reward": 0.462,
+      "normalized_reward_range": [
+        0.3569,
+        0.5272
+      ],
+      "mean_stateless_gain": 0.4816,
+      "stateless_gain_range": [
+        0.4156,
+        0.542
+      ],
+      "mean_cost_usd": 3.4143,
+      "cost_reduction_vs_global_icl": 0.7142,
+      "cost_reduction_range": [
+        0.7139,
+        0.7144
+      ],
+      "mean_clusters": 0.0,
+      "per_family_normalized": {
+        "sql": 0.4276,
+        "poker": 0.5705,
+        "sales": 0.4046,
+        "code": 0.3511,
+        "cohort": 0.4101,
+        "spectrum": 0.3424,
+        "banking": 0.6002
+      },
+      "cluster_systems": {}
+    },
+    "routed_icl": {
+      "mean_normalized_reward": 0.4422,
+      "normalized_reward_range": [
+        0.3471,
+        0.512
+      ],
+      "mean_stateless_gain": 0.4578,
+      "stateless_gain_range": [
+        0.4033,
+        0.5294
+      ],
+      "mean_cost_usd": 6.1083,
+      "cost_reduction_vs_global_icl": 0.4887,
+      "cost_reduction_range": [
+        0.478,
+        0.5055
+      ],
+      "mean_clusters": 8.4,
+      "per_family_normalized": {
+        "sql": 0.6337,
+        "poker": 0.4322,
+        "sales": 0.4344,
+        "code": 0.5813,
+        "cohort": 0.3373,
+        "spectrum": 0.2985,
+        "banking": 0.4105
+      },
+      "cluster_systems": {
+        "icl": 8.4
+      },
+      "router_agreement": {
+        "system": 0.2513,
+        "partition": 0.9704,
+        "both": 0.2503
+      }
+    },
+    "routed_rb": {
+      "mean_normalized_reward": 0.45,
+      "normalized_reward_range": [
+        0.3535,
+        0.5141
+      ],
+      "mean_stateless_gain": 0.4695,
+      "stateless_gain_range": [
+        0.4115,
+        0.521
+      ],
+      "mean_cost_usd": 4.4522,
+      "cost_reduction_vs_global_icl": 0.6273,
+      "cost_reduction_range": [
+        0.6271,
+        0.6275
+      ],
+      "mean_clusters": 7.4,
+      "per_family_normalized": {
+        "sql": 0.4123,
+        "poker": 0.5705,
+        "sales": 0.4269,
+        "code": 0.365,
+        "cohort": 0.381,
+        "spectrum": 0.3278,
+        "banking": 0.5629
+      },
+      "cluster_systems": {
+        "reasoning_bank": 7.4
+      },
+      "router_agreement": {
+        "system": 0.3693,
+        "partition": 0.9322,
+        "both": 0.3216
+      }
+    },
+    "routed_cl": {
+      "mean_normalized_reward": 0.5999,
+      "normalized_reward_range": [
+        0.4904,
+        0.6565
+      ],
+      "mean_stateless_gain": 0.6104,
+      "stateless_gain_range": [
+        0.5309,
+        0.6765
+      ],
+      "mean_cost_usd": 4.9526,
+      "cost_reduction_vs_global_icl": 0.5855,
+      "cost_reduction_range": [
+        0.544,
+        0.5962
+      ],
+      "mean_clusters": 7.0,
+      "per_family_normalized": {
+        "sql": 0.6337,
+        "poker": 0.5705,
+        "sales": 0.6651,
+        "code": 0.5604,
+        "cohort": 0.5922,
+        "spectrum": 0.642,
+        "banking": 0.5663
+      },
+      "cluster_systems": {
+        "discrete_event": 1.0,
+        "hierarchical_regression": 1.0,
+        "icl": 2.2,
+        "persistent_entity": 1.0,
+        "reasoning_bank": 1.8
+      },
+      "router_agreement": {
+        "system": 0.9477,
+        "partition": 0.9869,
+        "both": 0.9392
+      }
+    },
+    "ground_truth": {
+      "mean_normalized_reward": 0.6126,
+      "normalized_reward_range": [
+        0.5407,
+        0.6565
+      ],
+      "mean_stateless_gain": 0.6229,
+      "stateless_gain_range": [
+        0.5802,
+        0.6765
+      ],
+      "mean_cost_usd": 3.7849,
+      "cost_reduction_vs_global_icl": 0.6832,
+      "cost_reduction_range": [
+        0.6831,
+        0.6832
+      ],
+      "mean_clusters": 7.0,
+      "per_family_normalized": {
+        "sql": 0.6337,
+        "poker": 0.5705,
+        "sales": 0.6651,
+        "code": 0.5813,
+        "cohort": 0.5922,
+        "spectrum": 0.6493,
+        "banking": 0.6036
+      },
+      "cluster_systems": {
+        "discrete_event": 1.0,
+        "hierarchical_regression": 1.0,
+        "icl": 2.0,
+        "persistent_entity": 1.0,
+        "reasoning_bank": 2.0
+      }
+    }
+  },
+  "isolated": {
+    "stateless": {
+      "mean_normalized_reward": 0.0031,
+      "mean_stateless_gain": 0.0,
+      "mean_cost_usd": 0.4776,
+      "per_family_normalized": {
+        "sql": -0.0151,
+        "poker": 0.0245,
+        "sales": 0.1143,
+        "code": 0.0301,
+        "cohort": -0.0851,
+        "spectrum": -0.0376,
+        "banking": -0.0096
+      },
+      "per_family_gain": {
+        "sql": 0.0,
+        "poker": 0.0,
+        "sales": 0.0,
+        "code": 0.0,
+        "cohort": 0.0,
+        "spectrum": 0.0,
+        "banking": 0.0
+      }
+    },
+    "global_icl": {
+      "mean_normalized_reward": 0.4941,
+      "mean_stateless_gain": 0.4895,
+      "mean_cost_usd": 0.7446,
+      "per_family_normalized": {
+        "sql": 0.5802,
+        "poker": 0.4249,
+        "sales": 0.5534,
+        "code": 0.6441,
+        "cohort": 0.4465,
+        "spectrum": 0.3789,
+        "banking": 0.4308
+      },
+      "per_family_gain": {
+        "sql": 0.5874,
+        "poker": 0.3972,
+        "sales": 0.4898,
+        "code": 0.6212,
+        "cohort": 0.4901,
+        "spectrum": 0.4006,
+        "banking": 0.4399
+      }
+    },
+    "global_rb": {
+      "mean_normalized_reward": 0.4892,
+      "mean_stateless_gain": 0.4857,
+      "mean_cost_usd": 0.4874,
+      "per_family_normalized": {
+        "sql": 0.4352,
+        "poker": 0.5996,
+        "sales": 0.5534,
+        "code": 0.4139,
+        "cohort": 0.4465,
+        "spectrum": 0.3789,
+        "banking": 0.5968
+      },
+      "per_family_gain": {
+        "sql": 0.4453,
+        "poker": 0.576,
+        "sales": 0.4898,
+        "code": 0.394,
+        "cohort": 0.4901,
+        "spectrum": 0.4006,
+        "banking": 0.6042
+      }
+    },
+    "routed_icl": {
+      "mean_normalized_reward": 0.4931,
+      "mean_stateless_gain": 0.4886,
+      "mean_cost_usd": 0.8771,
+      "per_family_normalized": {
+        "sql": 0.5802,
+        "poker": 0.4176,
+        "sales": 0.5534,
+        "code": 0.6441,
+        "cohort": 0.4465,
+        "spectrum": 0.3789,
+        "banking": 0.4308
+      },
+      "per_family_gain": {
+        "sql": 0.5874,
+        "poker": 0.391,
+        "sales": 0.4898,
+        "code": 0.6212,
+        "cohort": 0.4901,
+        "spectrum": 0.4006,
+        "banking": 0.4399
+      }
+    },
+    "routed_rb": {
+      "mean_normalized_reward": 0.4876,
+      "mean_stateless_gain": 0.4843,
+      "mean_cost_usd": 0.6356,
+      "per_family_normalized": {
+        "sql": 0.4276,
+        "poker": 0.5996,
+        "sales": 0.5534,
+        "code": 0.4139,
+        "cohort": 0.4392,
+        "spectrum": 0.3789,
+        "banking": 0.6002
+      },
+      "per_family_gain": {
+        "sql": 0.4379,
+        "poker": 0.576,
+        "sales": 0.4898,
+        "code": 0.394,
+        "cohort": 0.4836,
+        "spectrum": 0.4006,
+        "banking": 0.608
+      }
+    },
+    "routed_cl": {
+      "mean_normalized_reward": 0.6176,
+      "mean_stateless_gain": 0.6144,
+      "mean_cost_usd": 0.7077,
+      "per_family_normalized": {
+        "sql": 0.5802,
+        "poker": 0.6069,
+        "sales": 0.7172,
+        "code": 0.6441,
+        "cohort": 0.6213,
+        "spectrum": 0.5835,
+        "banking": 0.5697
+      },
+      "per_family_gain": {
+        "sql": 0.5874,
+        "poker": 0.584,
+        "sales": 0.6843,
+        "code": 0.6212,
+        "cohort": 0.6513,
+        "spectrum": 0.592,
+        "banking": 0.5807
+      }
+    },
+    "ground_truth": {
+      "mean_normalized_reward": 0.6204,
+      "mean_stateless_gain": 0.6166,
+      "mean_cost_usd": 0.5409,
+      "per_family_normalized": {
+        "sql": 0.5802,
+        "poker": 0.5996,
+        "sales": 0.7172,
+        "code": 0.6441,
+        "cohort": 0.6213,
+        "spectrum": 0.5835,
+        "banking": 0.5968
+      },
+      "per_family_gain": {
+        "sql": 0.5874,
+        "poker": 0.576,
+        "sales": 0.6843,
+        "code": 0.6212,
+        "cohort": 0.6513,
+        "spectrum": 0.592,
+        "banking": 0.6042
+      }
+    }
+  },
+  "router_noise": {
+    "0.0": {
+      "mean_normalized_reward": 0.6151,
+      "normalized_reward_range": [
+        0.5644,
+        0.6597
+      ],
+      "mean_stateless_gain": 0.6236,
+      "mean_cost_usd": 4.8237,
+      "router_agreement": {
+        "system": 1.0,
+        "partition": 0.9744,
+        "both": 0.9744
+      },
+      "mean_clusters": 6.8
+    },
+    "0.1": {
+      "mean_normalized_reward": 0.6036,
+      "normalized_reward_range": [
+        0.5281,
+        0.6509
+      ],
+      "mean_stateless_gain": 0.6126,
+      "mean_cost_usd": 4.8391,
+      "router_agreement": {
+        "system": 0.995,
+        "partition": 0.9889,
+        "both": 0.9879
+      },
+      "mean_clusters": 7.0
+    },
+    "0.2": {
+      "mean_normalized_reward": 0.4365,
+      "normalized_reward_range": [
+        0.3926,
+        0.4997
+      ],
+      "mean_stateless_gain": 0.4508,
+      "mean_cost_usd": 4.8945,
+      "router_agreement": {
+        "system": 0.8518,
+        "partition": 0.7824,
+        "both": 0.7251
+      },
+      "mean_clusters": 9.6
+    },
+    "0.4": {
+      "mean_normalized_reward": 0.1966,
+      "normalized_reward_range": [
+        0.1224,
+        0.3097
+      ],
+      "mean_stateless_gain": 0.2137,
+      "mean_cost_usd": 4.9167,
+      "router_agreement": {
+        "system": 0.4638,
+        "partition": 0.3719,
+        "both": 0.292
+      },
+      "mean_clusters": 9.2
+    }
+  },
+  "concurrency": {
+    "0": {
+      "mean_normalized_reward": 0.6713,
+      "mean_cost_per_agent_usd": 16.3993,
+      "mean_reward": 0.8149
+    },
+    "1": {
+      "mean_normalized_reward": 0.6713,
+      "mean_cost_per_agent_usd": 16.3993,
+      "mean_reward": 0.8149
+    },
+    "4": {
+      "mean_normalized_reward": 0.6644,
+      "mean_cost_per_agent_usd": 7.9944,
+      "mean_reward": 0.8111
+    },
+    "16": {
+      "mean_normalized_reward": 0.6578,
+      "mean_cost_per_agent_usd": 6.0217,
+      "mean_reward": 0.8076
+    }
+  },
+  "concurrency_rows": [
+    {
+      "n_agents": 4,
+      "staleness": 0,
+      "seed": 0,
+      "mean_normalized_reward": 0.6682,
+      "mean_cost_per_agent_usd": 16.3003,
+      "mean_reward": 0.8128
+    },
+    {
+      "n_agents": 4,
+      "staleness": 0,
+      "seed": 1,
+      "mean_normalized_reward": 0.6687,
+      "mean_cost_per_agent_usd": 16.4786,
+      "mean_reward": 0.8134
+    },
+    {
+      "n_agents": 4,
+      "staleness": 0,
+      "seed": 2,
+      "mean_normalized_reward": 0.677,
+      "mean_cost_per_agent_usd": 16.4191,
+      "mean_reward": 0.8185
+    },
+    {
+      "n_agents": 4,
+      "staleness": 1,
+      "seed": 0,
+      "mean_normalized_reward": 0.6682,
+      "mean_cost_per_agent_usd": 16.3003,
+      "mean_reward": 0.8128
+    },
+    {
+      "n_agents": 4,
+      "staleness": 1,
+      "seed": 1,
+      "mean_normalized_reward": 0.6687,
+      "mean_cost_per_agent_usd": 16.4786,
+      "mean_reward": 0.8134
+    },
+    {
+      "n_agents": 4,
+      "staleness": 1,
+      "seed": 2,
+      "mean_normalized_reward": 0.677,
+      "mean_cost_per_agent_usd": 16.4191,
+      "mean_reward": 0.8185
+    },
+    {
+      "n_agents": 4,
+      "staleness": 4,
+      "seed": 0,
+      "mean_normalized_reward": 0.6567,
+      "mean_cost_per_agent_usd": 7.9381,
+      "mean_reward": 0.8065
+    },
+    {
+      "n_agents": 4,
+      "staleness": 4,
+      "seed": 1,
+      "mean_normalized_reward": 0.6664,
+      "mean_cost_per_agent_usd": 8.0309,
+      "mean_reward": 0.8122
+    },
+    {
+      "n_agents": 4,
+      "staleness": 4,
+      "seed": 2,
+      "mean_normalized_reward": 0.6702,
+      "mean_cost_per_agent_usd": 8.0143,
+      "mean_reward": 0.8147
+    },
+    {
+      "n_agents": 4,
+      "staleness": 16,
+      "seed": 0,
+      "mean_normalized_reward": 0.6486,
+      "mean_cost_per_agent_usd": 5.819,
+      "mean_reward": 0.8021
+    },
+    {
+      "n_agents": 4,
+      "staleness": 16,
+      "seed": 1,
+      "mean_normalized_reward": 0.6605,
+      "mean_cost_per_agent_usd": 6.0806,
+      "mean_reward": 0.809
+    },
+    {
+      "n_agents": 4,
+      "staleness": 16,
+      "seed": 2,
+      "mean_normalized_reward": 0.6642,
+      "mean_cost_per_agent_usd": 6.1656,
+      "mean_reward": 0.8116
+    }
+  ]
+}

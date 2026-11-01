@@ -1,0 +1,1962 @@
+[
+  {
+    "condition": "stateless",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.399497,
+    "normalized_reward": -0.072329,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.144804,
+      "poker": 0.089992,
+      "sales": -0.116414,
+      "code": -0.116431,
+      "cohort": -0.274464,
+      "spectrum": 0.050104,
+      "banking": -0.033362
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.467337,
+    "normalized_reward": 0.05225,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.198637,
+      "poker": 0.199193,
+      "sales": -0.041986,
+      "code": 0.023123,
+      "cohort": -0.019571,
+      "spectrum": 0.086639,
+      "banking": -0.016422
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.454774,
+    "normalized_reward": 0.02625,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.030324,
+      "poker": 0.271994,
+      "sales": 0.069655,
+      "code": 0.127788,
+      "cohort": -0.128811,
+      "spectrum": -0.132568,
+      "banking": 0.017459
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.407035,
+    "normalized_reward": -0.058894,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.106644,
+      "poker": -0.019209,
+      "sales": -0.116414,
+      "code": -0.081543,
+      "cohort": -0.019571,
+      "spectrum": -0.059499,
+      "banking": -0.033362
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.40201,
+    "normalized_reward": -0.068344,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.045997,
+      "poker": -0.12841,
+      "sales": -0.153627,
+      "code": -0.186208,
+      "cohort": 0.016842,
+      "spectrum": -0.169103,
+      "banking": 0.017459
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.354271,
+    "normalized_reward": -0.153234,
+    "stateless_gain": -0.075314,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.182964,
+      "poker": -0.019209,
+      "sales": -0.228055,
+      "code": -0.186208,
+      "cohort": -0.383704,
+      "spectrum": -0.022965,
+      "banking": -0.101124
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.439698,
+    "normalized_reward": 0.003159,
+    "stateless_gain": -0.051887,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.122317,
+      "poker": 0.162793,
+      "sales": -0.116414,
+      "code": -0.011766,
+      "cohort": -0.019571,
+      "spectrum": 0.050104,
+      "banking": -0.084183
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.419598,
+    "normalized_reward": -0.03792,
+    "stateless_gain": -0.064516,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.144804,
+      "poker": 0.162793,
+      "sales": 0.069655,
+      "code": 0.197565,
+      "cohort": -0.238051,
+      "spectrum": -0.278706,
+      "banking": -0.033362
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.359296,
+    "normalized_reward": -0.144821,
+    "stateless_gain": -0.080508,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.182964,
+      "poker": -0.019209,
+      "sales": -0.302482,
+      "code": -0.046654,
+      "cohort": -0.274464,
+      "spectrum": -0.096034,
+      "banking": -0.118064
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.369347,
+    "normalized_reward": -0.12631,
+    "stateless_gain": -0.054622,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.030324,
+      "poker": -0.237611,
+      "sales": -0.190841,
+      "code": -0.15132,
+      "cohort": -0.092398,
+      "spectrum": -0.169103,
+      "banking": -0.067243
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.688442,
+    "normalized_reward": 0.438851,
+    "stateless_gain": 0.481172,
+    "total_cost_usd": 3.441228,
+    "total_input_tokens": 389740,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.313118,
+      "poker": 0.563196,
+      "sales": 0.255724,
+      "code": 0.302231,
+      "cohort": 0.380975,
+      "spectrum": 0.451983,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.726131,
+    "normalized_reward": 0.512115,
+    "stateless_gain": 0.485849,
+    "total_cost_usd": 3.44058,
+    "total_input_tokens": 389740,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.656559,
+      "poker": 0.635997,
+      "sales": 0.516221,
+      "code": 0.372008,
+      "cohort": 0.526628,
+      "spectrum": 0.34238,
+      "banking": 0.52567
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.721106,
+    "normalized_reward": 0.500704,
+    "stateless_gain": 0.488479,
+    "total_cost_usd": 3.439482,
+    "total_input_tokens": 389860,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.389438,
+      "poker": 0.599596,
+      "sales": 0.553435,
+      "code": 0.581338,
+      "cohort": 0.380975,
+      "spectrum": 0.451983,
+      "banking": 0.52567
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.728643,
+    "normalized_reward": 0.512666,
+    "stateless_gain": 0.542373,
+    "total_cost_usd": 3.441102,
+    "total_input_tokens": 389860,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.465758,
+      "poker": 0.672397,
+      "sales": 0.367366,
+      "code": 0.441784,
+      "cohort": 0.380975,
+      "spectrum": 0.525052,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.663317,
+    "normalized_reward": 0.395429,
+    "stateless_gain": 0.436975,
+    "total_cost_usd": 3.43851,
+    "total_input_tokens": 389860,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.274957,
+      "poker": 0.490395,
+      "sales": 0.441793,
+      "code": 0.197565,
+      "cohort": 0.308148,
+      "spectrum": 0.34238,
+      "banking": 0.559551
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "routed_icl",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.590452,
+    "normalized_reward": 0.269063,
+    "stateless_gain": 0.317992,
+    "total_cost_usd": 6.56118,
+    "total_input_tokens": 6290600,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.542078,
+      "poker": 0.344794,
+      "sales": 0.032442,
+      "code": 0.406896,
+      "cohort": -0.238051,
+      "spectrum": 0.451983,
+      "banking": 0.305445
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.8567839195979899,
+      "both": 0.24874371859296482
+    },
+    "n_clusters": 6,
+    "cluster_systems": {
+      "icl": 6
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.633166,
+    "normalized_reward": 0.351415,
+    "stateless_gain": 0.311321,
+    "total_cost_usd": 6.29562,
+    "total_input_tokens": 5409000,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.417595,
+      "sales": 0.479007,
+      "code": 0.441784,
+      "cohort": 0.162495,
+      "spectrum": 0.378914,
+      "banking": 0.169922
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.7914572864321608,
+      "both": 0.1884422110552764
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 7
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.658291,
+    "normalized_reward": 0.391699,
+    "stateless_gain": 0.373272,
+    "total_cost_usd": 6.25818,
+    "total_input_tokens": 5284200,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.618399,
+      "poker": 0.490395,
+      "sales": 0.367366,
+      "code": 0.790669,
+      "cohort": -0.165224,
+      "spectrum": 0.415449,
+      "banking": 0.305445
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9020100502512562,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 7
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.708543,
+    "normalized_reward": 0.479724,
+    "stateless_gain": 0.508475,
+    "total_cost_usd": 6.14826,
+    "total_input_tokens": 4921400,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.490395,
+      "sales": 0.367366,
+      "code": 0.651115,
+      "cohort": 0.417388,
+      "spectrum": 0.415449,
+      "banking": 0.457908
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9698492462311558,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 8,
+    "cluster_systems": {
+      "icl": 8
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.580402,
+    "normalized_reward": 0.248337,
+    "stateless_gain": 0.298319,
+    "total_cost_usd": 6.3189,
+    "total_input_tokens": 5486600,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.235593,
+      "sales": -0.041986,
+      "code": 0.372008,
+      "cohort": -0.019571,
+      "spectrum": 0.305845,
+      "banking": 0.356266
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.8894472361809045,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 7
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.675879,
+    "normalized_reward": 0.415287,
+    "stateless_gain": 0.460251,
+    "total_cost_usd": 4.45416,
+    "total_input_tokens": 507760,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.236797,
+      "poker": 0.563196,
+      "sales": 0.218511,
+      "code": 0.372008,
+      "cohort": 0.344561,
+      "spectrum": 0.378914,
+      "banking": 0.610372
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.8492462311557789,
+      "both": 0.32663316582914576
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "reasoning_bank": 7
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.736181,
+    "normalized_reward": 0.529959,
+    "stateless_gain": 0.504717,
+    "total_cost_usd": 4.452414,
+    "total_input_tokens": 507880,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.694719,
+      "poker": 0.563196,
+      "sales": 0.516221,
+      "code": 0.372008,
+      "cohort": 0.563041,
+      "spectrum": 0.415449,
+      "banking": 0.559551
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.907035175879397,
+      "both": 0.34673366834170855
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "reasoning_bank": 7
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.718593,
+    "normalized_reward": 0.496468,
+    "stateless_gain": 0.483871,
+    "total_cost_usd": 4.454448,
+    "total_input_tokens": 507640,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.465758,
+      "poker": 0.599596,
+      "sales": 0.516221,
+      "code": 0.581338,
+      "cohort": 0.308148,
+      "spectrum": 0.451983,
+      "banking": 0.52567
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.8417085427135679,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "reasoning_bank": 7
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.726131,
+    "normalized_reward": 0.50946,
+    "stateless_gain": 0.538136,
+    "total_cost_usd": 4.450866,
+    "total_input_tokens": 507580,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.503918,
+      "poker": 0.599596,
+      "sales": 0.367366,
+      "code": 0.476673,
+      "cohort": 0.453801,
+      "spectrum": 0.525052,
+      "banking": 0.576491
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.8668341708542714,
+      "both": 0.2964824120603015
+    },
+    "n_clusters": 8,
+    "cluster_systems": {
+      "reasoning_bank": 8
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.668342,
+    "normalized_reward": 0.403251,
+    "stateless_gain": 0.445378,
+    "total_cost_usd": 4.452018,
+    "total_input_tokens": 507640,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.313118,
+      "poker": 0.526796,
+      "sales": 0.404579,
+      "code": 0.197565,
+      "cohort": 0.271735,
+      "spectrum": 0.305845,
+      "banking": 0.610372
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.8517587939698492,
+      "both": 0.2562814070351759
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "reasoning_bank": 7
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.736181,
+    "normalized_reward": 0.528123,
+    "stateless_gain": 0.560669,
+    "total_cost_usd": 4.883664,
+    "total_input_tokens": 1619580,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.351278,
+      "poker": 0.563196,
+      "sales": 0.590648,
+      "code": 0.441784,
+      "cohort": 0.635867,
+      "spectrum": 0.525052,
+      "banking": 0.559551
+    },
+    "router_agreement": {
+      "system": 0.9798994974874372,
+      "partition": 0.964824120603015,
+      "both": 0.9597989949748744
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "hierarchical_regression": 1,
+      "discrete_event": 1,
+      "icl": 2,
+      "persistent_entity": 1,
+      "reasoning_bank": 2
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.798995,
+    "normalized_reward": 0.644596,
+    "stateless_gain": 0.622642,
+    "total_cost_usd": 4.823304,
+    "total_input_tokens": 1449880,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.732879,
+      "poker": 0.635997,
+      "sales": 0.70229,
+      "code": 0.651115,
+      "cohort": 0.708694,
+      "spectrum": 0.634655,
+      "banking": 0.54261
+    },
+    "router_agreement": {
+      "system": 1.0,
+      "partition": 0.9949748743718593,
+      "both": 0.9949748743718593
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "discrete_event": 1,
+      "icl": 2,
+      "persistent_entity": 1,
+      "hierarchical_regression": 1,
+      "reasoning_bank": 2
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.791457,
+    "normalized_reward": 0.630103,
+    "stateless_gain": 0.617512,
+    "total_cost_usd": 4.8306,
+    "total_input_tokens": 1469520,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.618399,
+      "poker": 0.599596,
+      "sales": 0.739504,
+      "code": 0.790669,
+      "cohort": 0.563041,
+      "spectrum": 0.67119,
+      "banking": 0.52567
+    },
+    "router_agreement": {
+      "system": 0.9974874371859297,
+      "partition": 0.9974874371859297,
+      "both": 0.9974874371859297
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "hierarchical_regression": 1,
+      "reasoning_bank": 2,
+      "discrete_event": 1,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.80402,
+    "normalized_reward": 0.650931,
+    "stateless_gain": 0.669492,
+    "total_cost_usd": 4.834074,
+    "total_input_tokens": 1469760,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.708797,
+      "sales": 0.590648,
+      "code": 0.581338,
+      "cohort": 0.78152,
+      "spectrum": 0.707724,
+      "banking": 0.627312
+    },
+    "router_agreement": {
+      "system": 0.9974874371859297,
+      "partition": 0.9874371859296482,
+      "both": 0.9874371859296482
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "discrete_event": 1,
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.756281,
+    "normalized_reward": 0.564406,
+    "stateless_gain": 0.592437,
+    "total_cost_usd": 4.823754,
+    "total_input_tokens": 1449760,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.526796,
+      "sales": 0.665076,
+      "code": 0.372008,
+      "cohort": 0.78152,
+      "spectrum": 0.525052,
+      "banking": 0.610372
+    },
+    "router_agreement": {
+      "system": 1.0,
+      "partition": 1.0,
+      "both": 1.0
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "discrete_event": 1,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "interleaved",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.758794,
+    "normalized_reward": 0.568607,
+    "stateless_gain": 0.598326,
+    "total_cost_usd": 3.784974,
+    "total_input_tokens": 1330360,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.542078,
+      "poker": 0.563196,
+      "sales": 0.590648,
+      "code": 0.441784,
+      "cohort": 0.635867,
+      "spectrum": 0.525052,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "hierarchical_regression": 1,
+      "discrete_event": 1,
+      "icl": 2,
+      "reasoning_bank": 2,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "interleaved",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.801508,
+    "normalized_reward": 0.648725,
+    "stateless_gain": 0.627358,
+    "total_cost_usd": 3.786594,
+    "total_input_tokens": 1330360,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.732879,
+      "poker": 0.635997,
+      "sales": 0.70229,
+      "code": 0.651115,
+      "cohort": 0.708694,
+      "spectrum": 0.634655,
+      "banking": 0.559551
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "discrete_event": 1,
+      "icl": 2,
+      "persistent_entity": 1,
+      "hierarchical_regression": 1,
+      "reasoning_bank": 2
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "interleaved",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.79397,
+    "normalized_reward": 0.634232,
+    "stateless_gain": 0.62212,
+    "total_cost_usd": 3.784848,
+    "total_input_tokens": 1330480,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.618399,
+      "poker": 0.599596,
+      "sales": 0.739504,
+      "code": 0.790669,
+      "cohort": 0.563041,
+      "spectrum": 0.67119,
+      "banking": 0.54261
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "hierarchical_regression": 1,
+      "reasoning_bank": 2,
+      "discrete_event": 1,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "interleaved",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.806533,
+    "normalized_reward": 0.655124,
+    "stateless_gain": 0.673729,
+    "total_cost_usd": 3.78483,
+    "total_input_tokens": 1330420,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.672397,
+      "sales": 0.590648,
+      "code": 0.651115,
+      "cohort": 0.78152,
+      "spectrum": 0.707724,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "discrete_event": 1,
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "interleaved",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.756281,
+    "normalized_reward": 0.564406,
+    "stateless_gain": 0.592437,
+    "total_cost_usd": 3.783732,
+    "total_input_tokens": 1330540,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.526796,
+      "sales": 0.665076,
+      "code": 0.372008,
+      "cohort": 0.78152,
+      "spectrum": 0.525052,
+      "banking": 0.610372
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "discrete_event": 1,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1
+    }
+  },
+  {
+    "condition": "stateless",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.399497,
+    "normalized_reward": -0.072786,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.144804,
+      "poker": -0.09201,
+      "sales": -0.004772,
+      "code": -0.116431,
+      "cohort": -0.128811,
+      "spectrum": -0.059499,
+      "banking": -0.016422
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.464824,
+    "normalized_reward": 0.0436,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.144804,
+      "poker": -0.055609,
+      "sales": 0.032442,
+      "code": 0.197565,
+      "cohort": -0.019571,
+      "spectrum": 0.232776,
+      "banking": 0.05134
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.459799,
+    "normalized_reward": 0.040155,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.106644,
+      "poker": 0.053592,
+      "sales": -0.004772,
+      "code": -0.011766,
+      "cohort": 0.198908,
+      "spectrum": 0.378914,
+      "banking": -0.101124
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.40201,
+    "normalized_reward": -0.069942,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.144804,
+      "poker": -0.09201,
+      "sales": 0.069655,
+      "code": -0.290873,
+      "cohort": -0.128811,
+      "spectrum": -0.132568,
+      "banking": 0.08522
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "stateless",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.389447,
+    "normalized_reward": -0.092911,
+    "stateless_gain": 0.0,
+    "total_cost_usd": 3.3432,
+    "total_input_tokens": 318400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": -0.221124,
+      "poker": 0.017191,
+      "sales": -0.153627,
+      "code": -0.116431,
+      "cohort": -0.019571,
+      "spectrum": -0.242172,
+      "banking": 0.000518
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.432161,
+    "normalized_reward": -0.009385,
+    "stateless_gain": 0.054393,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": -0.055609,
+      "sales": -0.004772,
+      "code": -0.15132,
+      "cohort": -0.201638,
+      "spectrum": -0.205637,
+      "banking": -0.016422
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.492462,
+    "normalized_reward": 0.099454,
+    "stateless_gain": 0.051643,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.656559,
+      "poker": 0.053592,
+      "sales": 0.032442,
+      "code": 0.0929,
+      "cohort": -0.128811,
+      "spectrum": 0.050104,
+      "banking": 0.017459
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.48995,
+    "normalized_reward": 0.100161,
+    "stateless_gain": 0.055814,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.732879,
+      "poker": 0.126392,
+      "sales": 0.032442,
+      "code": -0.081543,
+      "cohort": 0.053255,
+      "spectrum": 0.159707,
+      "banking": -0.118064
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.424623,
+    "normalized_reward": -0.022008,
+    "stateless_gain": 0.037815,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.771039,
+      "poker": -0.019209,
+      "sales": -0.041986,
+      "code": -0.290873,
+      "cohort": -0.310877,
+      "spectrum": -0.278706,
+      "banking": 0.000518
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_icl",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.407035,
+    "normalized_reward": -0.055468,
+    "stateless_gain": 0.028807,
+    "total_cost_usd": 11.94696,
+    "total_input_tokens": 27568400,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.053592,
+      "sales": -0.116414,
+      "code": -0.221096,
+      "cohort": -0.128811,
+      "spectrum": -0.351775,
+      "banking": -0.050303
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.678392,
+    "normalized_reward": 0.419682,
+    "stateless_gain": 0.464435,
+    "total_cost_usd": 3.412716,
+    "total_input_tokens": 389740,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.313118,
+      "poker": 0.417595,
+      "sales": 0.404579,
+      "code": 0.337119,
+      "cohort": 0.380975,
+      "spectrum": 0.232776,
+      "banking": 0.644252
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.736181,
+    "normalized_reward": 0.527234,
+    "stateless_gain": 0.507042,
+    "total_cost_usd": 3.411744,
+    "total_input_tokens": 389740,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.465758,
+      "poker": 0.599596,
+      "sales": 0.553435,
+      "code": 0.441784,
+      "cohort": 0.453801,
+      "spectrum": 0.488518,
+      "banking": 0.610372
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.718593,
+    "normalized_reward": 0.497774,
+    "stateless_gain": 0.47907,
+    "total_cost_usd": 3.413076,
+    "total_input_tokens": 389860,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.542078,
+      "poker": 0.599596,
+      "sales": 0.292938,
+      "code": 0.372008,
+      "cohort": 0.563041,
+      "spectrum": 0.561587,
+      "banking": 0.52567
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.726131,
+    "normalized_reward": 0.508371,
+    "stateless_gain": 0.542017,
+    "total_cost_usd": 3.41583,
+    "total_input_tokens": 389860,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.503918,
+      "poker": 0.635997,
+      "sales": 0.516221,
+      "code": 0.406896,
+      "cohort": 0.417388,
+      "spectrum": 0.34238,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "global_rb",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.643216,
+    "normalized_reward": 0.356904,
+    "stateless_gain": 0.415638,
+    "total_cost_usd": 3.41826,
+    "total_input_tokens": 389860,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.313118,
+      "poker": 0.599596,
+      "sales": 0.255724,
+      "code": 0.197565,
+      "cohort": 0.235321,
+      "spectrum": 0.086639,
+      "banking": 0.593431
+    },
+    "router_agreement": null,
+    "n_clusters": 0,
+    "cluster_systems": {}
+  },
+  {
+    "condition": "routed_icl",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.658291,
+    "normalized_reward": 0.389483,
+    "stateless_gain": 0.430962,
+    "total_cost_usd": 6.2259,
+    "total_input_tokens": 5180200,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.271994,
+      "sales": 0.441793,
+      "code": 0.54645,
+      "cohort": 0.162495,
+      "spectrum": 0.269311,
+      "banking": 0.424028
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9698492462311558,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 8,
+    "cluster_systems": {
+      "icl": 8
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.726131,
+    "normalized_reward": 0.512018,
+    "stateless_gain": 0.488263,
+    "total_cost_usd": 6.23598,
+    "total_input_tokens": 5210200,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.656559,
+      "poker": 0.308394,
+      "sales": 0.553435,
+      "code": 0.651115,
+      "cohort": 0.453801,
+      "spectrum": 0.488518,
+      "banking": 0.491789
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9849246231155779,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 7
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.69598,
+    "normalized_reward": 0.462214,
+    "stateless_gain": 0.437209,
+    "total_cost_usd": 5.9079,
+    "total_input_tokens": 4123800,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.732879,
+      "poker": 0.526796,
+      "sales": 0.330152,
+      "code": 0.54645,
+      "cohort": 0.526628,
+      "spectrum": 0.415449,
+      "banking": 0.305445
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9623115577889447,
+      "both": 0.24874371859296482
+    },
+    "n_clusters": 9,
+    "cluster_systems": {
+      "icl": 9
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.718593,
+    "normalized_reward": 0.500037,
+    "stateless_gain": 0.529412,
+    "total_cost_usd": 6.15726,
+    "total_input_tokens": 4951400,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.771039,
+      "poker": 0.526796,
+      "sales": 0.590648,
+      "code": 0.616227,
+      "cohort": 0.308148,
+      "spectrum": 0.305845,
+      "banking": 0.440968
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9673366834170855,
+      "both": 0.24874371859296482
+    },
+    "n_clusters": 8,
+    "cluster_systems": {
+      "icl": 8
+    }
+  },
+  {
+    "condition": "routed_icl",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.635678,
+    "normalized_reward": 0.347062,
+    "stateless_gain": 0.403292,
+    "total_cost_usd": 6.0147,
+    "total_input_tokens": 4483400,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.526796,
+      "sales": 0.255724,
+      "code": 0.54645,
+      "cohort": 0.235321,
+      "spectrum": 0.01357,
+      "banking": 0.390147
+    },
+    "router_agreement": {
+      "system": 0.25125628140703515,
+      "partition": 0.9673366834170855,
+      "both": 0.25125628140703515
+    },
+    "n_clusters": 10,
+    "cluster_systems": {
+      "icl": 10
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.668342,
+    "normalized_reward": 0.402822,
+    "stateless_gain": 0.447699,
+    "total_cost_usd": 4.45317,
+    "total_input_tokens": 507700,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.313118,
+      "poker": 0.417595,
+      "sales": 0.441793,
+      "code": 0.337119,
+      "cohort": 0.308148,
+      "spectrum": 0.232776,
+      "banking": 0.593431
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.957286432160804,
+      "both": 0.34673366834170855
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "reasoning_bank": 7
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.728643,
+    "normalized_reward": 0.514105,
+    "stateless_gain": 0.492958,
+    "total_cost_usd": 4.451424,
+    "total_input_tokens": 507280,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.465758,
+      "poker": 0.563196,
+      "sales": 0.553435,
+      "code": 0.476673,
+      "cohort": 0.453801,
+      "spectrum": 0.451983,
+      "banking": 0.576491
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.9723618090452262,
+      "both": 0.3492462311557789
+    },
+    "n_clusters": 9,
+    "cluster_systems": {
+      "reasoning_bank": 9
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.71608,
+    "normalized_reward": 0.49419,
+    "stateless_gain": 0.474419,
+    "total_cost_usd": 4.454448,
+    "total_input_tokens": 508180,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.542078,
+      "poker": 0.635997,
+      "sales": 0.330152,
+      "code": 0.372008,
+      "cohort": 0.526628,
+      "spectrum": 0.561587,
+      "banking": 0.491789
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.821608040201005,
+      "both": 0.20351758793969849
+    },
+    "n_clusters": 6,
+    "cluster_systems": {
+      "reasoning_bank": 6
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.713568,
+    "normalized_reward": 0.485499,
+    "stateless_gain": 0.521008,
+    "total_cost_usd": 4.450632,
+    "total_input_tokens": 507340,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.635997,
+      "sales": 0.553435,
+      "code": 0.406896,
+      "cohort": 0.344561,
+      "spectrum": 0.305845,
+      "banking": 0.610372
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.9271356783919598,
+      "both": 0.34673366834170855
+    },
+    "n_clusters": 8,
+    "cluster_systems": {
+      "reasoning_bank": 8
+    }
+  },
+  {
+    "condition": "routed_rb",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.640704,
+    "normalized_reward": 0.353475,
+    "stateless_gain": 0.411523,
+    "total_cost_usd": 4.451496,
+    "total_input_tokens": 507520,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.313118,
+      "poker": 0.599596,
+      "sales": 0.255724,
+      "code": 0.232454,
+      "cohort": 0.271735,
+      "spectrum": 0.086639,
+      "banking": 0.54261
+    },
+    "router_agreement": {
+      "system": 0.3693467336683417,
+      "partition": 0.9824120603015075,
+      "both": 0.36180904522613067
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "reasoning_bank": 7
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.766332,
+    "normalized_reward": 0.581844,
+    "stateless_gain": 0.610879,
+    "total_cost_usd": 4.83282,
+    "total_input_tokens": 1469720,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.417595,
+      "sales": 0.665076,
+      "code": 0.54645,
+      "cohort": 0.599454,
+      "spectrum": 0.561587,
+      "banking": 0.644252
+    },
+    "router_agreement": {
+      "system": 0.9949748743718593,
+      "partition": 0.992462311557789,
+      "both": 0.992462311557789
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.796482,
+    "normalized_reward": 0.638563,
+    "stateless_gain": 0.619718,
+    "total_cost_usd": 4.83288,
+    "total_input_tokens": 1470280,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.656559,
+      "poker": 0.563196,
+      "sales": 0.739504,
+      "code": 0.651115,
+      "cohort": 0.599454,
+      "spectrum": 0.707724,
+      "banking": 0.593431
+    },
+    "router_agreement": {
+      "system": 0.9849246231155779,
+      "partition": 0.964824120603015,
+      "both": 0.964824120603015
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.791457,
+    "normalized_reward": 0.632227,
+    "stateless_gain": 0.613953,
+    "total_cost_usd": 4.824318,
+    "total_input_tokens": 1449840,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.732879,
+      "poker": 0.635997,
+      "sales": 0.627862,
+      "code": 0.54645,
+      "cohort": 0.635867,
+      "spectrum": 0.817328,
+      "banking": 0.52567
+    },
+    "router_agreement": {
+      "system": 0.9974874371859297,
+      "partition": 0.9974874371859297,
+      "both": 0.9974874371859297
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.806533,
+    "normalized_reward": 0.656495,
+    "stateless_gain": 0.676471,
+    "total_cost_usd": 4.82517,
+    "total_input_tokens": 1451240,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.771039,
+      "poker": 0.635997,
+      "sales": 0.739504,
+      "code": 0.616227,
+      "cohort": 0.635867,
+      "spectrum": 0.598121,
+      "banking": 0.627312
+    },
+    "router_agreement": {
+      "system": 1.0,
+      "partition": 0.9949748743718593,
+      "both": 0.9949748743718593
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "routed_cl",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.713568,
+    "normalized_reward": 0.490409,
+    "stateless_gain": 0.530864,
+    "total_cost_usd": 5.447604,
+    "total_input_tokens": 3225420,
+    "total_output_tokens": 218900,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.599596,
+      "sales": 0.553435,
+      "code": 0.441784,
+      "cohort": 0.490214,
+      "spectrum": 0.525052,
+      "banking": 0.440968
+    },
+    "router_agreement": {
+      "system": 0.7613065326633166,
+      "partition": 0.9849246231155779,
+      "both": 0.7462311557788944
+    },
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 3,
+      "reasoning_bank": 1,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "blocked",
+    "seed": 0,
+    "n": 398,
+    "mean_reward": 0.771357,
+    "normalized_reward": 0.591207,
+    "stateless_gain": 0.619247,
+    "total_cost_usd": 3.784344,
+    "total_input_tokens": 1330420,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.580239,
+      "poker": 0.417595,
+      "sales": 0.665076,
+      "code": 0.54645,
+      "cohort": 0.599454,
+      "spectrum": 0.634655,
+      "banking": 0.644252
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "blocked",
+    "seed": 1,
+    "n": 398,
+    "mean_reward": 0.798995,
+    "normalized_reward": 0.642139,
+    "stateless_gain": 0.624413,
+    "total_cost_usd": 3.78483,
+    "total_input_tokens": 1330420,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.656559,
+      "poker": 0.563196,
+      "sales": 0.739504,
+      "code": 0.651115,
+      "cohort": 0.599454,
+      "spectrum": 0.67119,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "blocked",
+    "seed": 2,
+    "n": 398,
+    "mean_reward": 0.791457,
+    "normalized_reward": 0.632227,
+    "stateless_gain": 0.613953,
+    "total_cost_usd": 3.78546,
+    "total_input_tokens": 1330360,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.732879,
+      "poker": 0.635997,
+      "sales": 0.627862,
+      "code": 0.54645,
+      "cohort": 0.635867,
+      "spectrum": 0.817328,
+      "banking": 0.52567
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "blocked",
+    "seed": 3,
+    "n": 398,
+    "mean_reward": 0.806533,
+    "normalized_reward": 0.656495,
+    "stateless_gain": 0.676471,
+    "total_cost_usd": 3.784668,
+    "total_input_tokens": 1330420,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.771039,
+      "poker": 0.635997,
+      "sales": 0.739504,
+      "code": 0.616227,
+      "cohort": 0.635867,
+      "spectrum": 0.598121,
+      "banking": 0.627312
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  },
+  {
+    "condition": "ground_truth",
+    "order": "blocked",
+    "seed": 4,
+    "n": 398,
+    "mean_reward": 0.743719,
+    "normalized_reward": 0.540716,
+    "stateless_gain": 0.580247,
+    "total_cost_usd": 3.78501,
+    "total_input_tokens": 1330480,
+    "total_output_tokens": 159200,
+    "per_family_normalized": {
+      "sql": 0.427598,
+      "poker": 0.599596,
+      "sales": 0.553435,
+      "code": 0.54645,
+      "cohort": 0.490214,
+      "spectrum": 0.525052,
+      "banking": 0.593431
+    },
+    "router_agreement": null,
+    "n_clusters": 7,
+    "cluster_systems": {
+      "icl": 2,
+      "reasoning_bank": 2,
+      "hierarchical_regression": 1,
+      "persistent_entity": 1,
+      "discrete_event": 1
+    }
+  }
+]
